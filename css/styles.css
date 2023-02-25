@@ -210,22 +210,29 @@ body {
 }
 /* What we do - section */
 
-.objective-container {
-  display: flex;
-  flex-direction: column;
-}
+/* Part 1 of the section */
 
 .objective-images {
   display: flex;
-  gap: 30px;
-  margin: 0px auto 30px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-container-objective {
-  width: 270px;
-  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.pictogram {
+  display: flex;
+}
+
+.box-container-objective li {
   background-color: var(--color-section-team);
 }
+
+/* Part 2 of the section */
 
 .objective-orientation {
   display: flex;
