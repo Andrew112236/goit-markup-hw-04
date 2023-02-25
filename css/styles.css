@@ -96,7 +96,15 @@
   margin: 106px 0px 30px 0px;
 }
 
-.main-page-section,
+.main-page-section {
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/background-image.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
 .footer {
   background: var(--color-section-footer-and-main);
 }
@@ -134,6 +142,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-text);
+}
+
+.link-hover-styling {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
 
 .link {
@@ -196,10 +210,26 @@ body {
 }
 /* What we do - section */
 
-.objective-orientation {
-  margin: 0px auto 0px auto;
+.objective-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.objective-images {
+  display: flex;
+  gap: 30px;
+  margin: 0px auto 30px auto;
+}
+
+.box-container-objective {
+  width: 270px;
+  height: 120px;
+  background-color: var(--color-section-team);
+}
+
+.objective-orientation {
+  display: flex;
+  margin: 0px auto 0px auto;
   gap: 30px;
 }
 
