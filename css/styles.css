@@ -76,6 +76,16 @@
   margin: 0px 53px 0px 0px;
 }
 
+.contact-orientation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-svg-link {
+  text-decoration: none;
+}
+
 /* Main containers */
 
 .title-page-container {
