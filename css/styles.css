@@ -232,10 +232,6 @@ body {
   align-items: center;
 }
 
-.pictogram {
-  display: flex;
-}
-
 .box-container-objective li {
   background-color: var(--color-section-team);
 }
